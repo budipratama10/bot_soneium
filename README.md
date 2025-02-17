@@ -23,7 +23,7 @@ Pastikan Anda sudah menginstall:
 ## **📥 Instalasi & Setup**
 ### **1️⃣ Clone Repository**
 
-git clone https://github.com/username/create-and-bulk-send-network-soenium.git
+git clone https://github.com/budipratama10/create-and-bulk-send-network-soenium.git
 cd create-and-bulk-send-network-soenium
 2️⃣ Install Dependencies
 npm install
