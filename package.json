@@ -1,0 +1,24 @@
+{
+  "name": "soenium-bulk-token-tool",
+  "version": "1.0.0",
+  "description": "Automated ERC20 token creation and bulk sending tool for Soenium Network",
+  "main": "menu.js",
+  "type": "module",
+  "scripts": {
+    "start": "node menu.js",
+    "deploy": "node scripts/deploy.js",
+    "bulk-send": "node scripts/bulk_send.js",
+    "generate-recipients": "node scripts/generate_recipients.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.0",
+    "hardhat": "^2.22.8",
+    "inquirer": "^8.2.6"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
